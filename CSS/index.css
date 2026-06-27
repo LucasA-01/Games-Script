@@ -18,19 +18,22 @@
   margin-right: 10rem;
 }
 
-.texto {
-  color: var(--cor-fonte);
-  font-family: var(--fonte-textos);
-}
-
 #hero h1 {
+  color: var(--cor-fonte-topo);
   width: 20%;
   font-size: 3rem;
 }
 
 #hero h3 {
+  color: var(--cor-fonte-topo);
   width: 20%;
   font-size: 1.5rem;
+}
+
+/* CARDS */
+.texto {
+  color: var(--cor-fonte);
+  font-family: var(--fonte-textos);
 }
 
 #jogos {
@@ -42,7 +45,7 @@
   margin-right: 10rem;
   gap: 2rem;
   border: 2px solid black;
-
+  color: var(--);
 }
 
 #jogos a {

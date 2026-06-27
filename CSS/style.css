@@ -16,7 +16,7 @@
   --cor-topo: rgb(0, 0, 0);
   --cor-hero: rgb(10, 10, 10);
   --cor-rodape: rgb(0, 0, 0);
-  --cor-fonte: #c0c0c0;
+  --cor-fonte: #181616;
   --cor-fonte-topo: #dbdbdb;
   --cor-fonte-rodape: #dbdbdb;
   --cor-fonte-link: #444040;
@@ -47,7 +47,7 @@ body {
 
 #topo a {
   text-decoration: none;
-  color: var(--cor-fonte);
+  color: var(--cor-fonte-topo);
 }
 
 #logo {
