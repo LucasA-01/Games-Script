@@ -15,11 +15,25 @@
   --cor-lateral: #0f0f0f;
   --cor-topo: rgb(0, 0, 0);
   --cor-hero: rgb(10, 10, 10);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  --cor-rodape: rgb(0, 0, 0);
+  --cor-fonte: #181616;
+  --cor-fonte-topo: #dbdbdb;
+  --cor-fonte-rodape: #dbdbdb;
+  --cor-fonte-link: #444040;
+=======
+>>>>>>> feature/layout-home
   --cor-rodape: rgb(19, 19, 19);
   --cor-fonte: #181616;
   --cor-fonte-topo: #dbdbdb;
   --cor-fonte-rodape: #dbdbdb;
   --cor-fonte-link: #636363;
+<<<<<<< HEAD
+=======
+>>>>>>> develop
+>>>>>>> feature/layout-home
   --cor-fonte-hover: #5c0000;
   --fonte-titulos: 'Bebas Neue', arial, sans-serif;
   --fonte-textos: 'Anton', sans-serif;
@@ -50,6 +64,11 @@ body {
   color: var(--cor-fonte-topo);
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> feature/layout-home
 #topo li {
   padding: 5px;
 
@@ -60,6 +79,10 @@ body {
   border-radius: 5px;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> develop
+>>>>>>> feature/layout-home
 #logo {
   display: flex;
   align-items: center;
@@ -75,6 +98,11 @@ body {
   display: flex;
   list-style: none;
   gap: 1rem;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> feature/layout-home
 }
 
 /* RODAPÉ */
@@ -99,4 +127,8 @@ body {
 #rodape a {
   text-decoration: none;
   color: var(--cor-fonte-link);
+<<<<<<< HEAD
+=======
+>>>>>>> develop
+>>>>>>> feature/layout-home
 }
