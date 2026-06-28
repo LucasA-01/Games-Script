@@ -5,6 +5,7 @@
   font-family: var(--fonte-titulos);
   color: var(--cor-fonte);
   background-color: var(--cor-topo);
+<<<<<<< HEAD
   gap: 1rem;
   background-image: url(../Assets/IMG/ChatGPT\ Image\ 26\ de\ jun.\ de\ 2026\,\ 23_30_49.png);
   background-size: 67rem;
@@ -14,19 +15,41 @@
   background-position: center;
   flex-direction: column;
   padding-left: 2rem;
+=======
+  background-image: url(../Assets/IMG/Hero-img.png);
+  background-size: 67rem;
+  width: auto;
+  height: 39rem;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  flex-direction: column;
+  padding: 1.5rem;
+>>>>>>> develop
   margin-left: 10rem;
   margin-right: 10rem;
 }
 
 #hero h1 {
+<<<<<<< HEAD
   color: var(--cor-fonte-topo);
   width: 20%;
+=======
+  display: flex;
+  justify-content: center;
+  color: var(--cor-fonte-topo);
+>>>>>>> develop
   font-size: 3rem;
 }
 
 #hero h3 {
+<<<<<<< HEAD
   color: var(--cor-fonte-topo);
   width: 20%;
+=======
+  display: flex;
+  justify-content: center;
+  color: var(--cor-fonte-topo);
+>>>>>>> develop
   font-size: 1.5rem;
 }
 
@@ -44,6 +67,7 @@
   margin-left: 10rem;
   margin-right: 10rem;
   gap: 2rem;
+<<<<<<< HEAD
   border: 2px solid black;
   color: var(--);
 }
@@ -62,4 +86,40 @@
   padding: 5px;
   border: 1px solid var(--cor-lateral);
   border-radius: 5px;
+=======
+  padding: 2rem;
+  border-bottom: 2px solid black;
+}
+
+.jogo img {
+  display: flex;
+  align-items: center;
+  width: 10rem;
+  border-radius: 5px;
+  margin: 4px;
+}
+
+.jogo {
+  display: flex;
+  gap: 3rem;
+  border: 1px solid var(--cor-lateral);
+  border-radius: 5px;
+}
+
+.jogo button {
+  display: flex;
+  align-items: center;
+  font-family: var(--fonte-titulos);
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  padding: 5px;
+  background-color: var(--cor-lateral);
+  color: var(--cor-fonte-topo);
+  border-radius: 8px;
+  height: 3rem;
+}
+
+.jogo button:hover {
+  cursor: pointer;
+>>>>>>> develop
 }
