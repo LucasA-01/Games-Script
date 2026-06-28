@@ -5,20 +5,6 @@
   font-family: var(--fonte-titulos);
   color: var(--cor-fonte);
   background-color: var(--cor-topo);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  gap: 1rem;
-  background-image: url(../Assets/IMG/ChatGPT\ Image\ 26\ de\ jun.\ de\ 2026\,\ 23_30_49.png);
-  background-size: 67rem;
-  width: auto;
-  height: 25rem;
-  background-repeat: no-repeat;
-  background-position: center;
-  flex-direction: column;
-  padding-left: 2rem;
-=======
->>>>>>> feature/layout-home
   background-image: url(../Assets/IMG/Hero-img.png);
   background-size: 67rem;
   width: auto;
@@ -27,47 +13,21 @@
   background-position:bottom;
   flex-direction: column;
   padding: 1.5rem;
-<<<<<<< HEAD
-=======
->>>>>>> develop
->>>>>>> feature/layout-home
   margin-left: 10rem;
   margin-right: 10rem;
 }
 
 #hero h1 {
-<<<<<<< HEAD
   display: flex;
   justify-content: center;
   color: var(--cor-fonte-topo);
-=======
-<<<<<<< HEAD
-  color: var(--cor-fonte-topo);
-  width: 20%;
-=======
-  display: flex;
-  justify-content: center;
-  color: var(--cor-fonte-topo);
->>>>>>> develop
->>>>>>> feature/layout-home
   font-size: 3rem;
 }
 
 #hero h3 {
-<<<<<<< HEAD
   display: flex;
   justify-content: center;
   color: var(--cor-fonte-topo);
-=======
-<<<<<<< HEAD
-  color: var(--cor-fonte-topo);
-  width: 20%;
-=======
-  display: flex;
-  justify-content: center;
-  color: var(--cor-fonte-topo);
->>>>>>> develop
->>>>>>> feature/layout-home
   font-size: 1.5rem;
 }
 
@@ -85,29 +45,6 @@
   margin-left: 10rem;
   margin-right: 10rem;
   gap: 2rem;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  border: 2px solid black;
-  color: var(--);
-}
-
-#jogos a {
-  text-decoration: none;
-}
-
-#jogos img {
-  width: 10rem;
-}
-
-#jogo01 {
-  display: flex;
-  gap: 3rem;
-  padding: 5px;
-  border: 1px solid var(--cor-lateral);
-  border-radius: 5px;
-=======
->>>>>>> feature/layout-home
   padding: 2rem;
   border-bottom: 2px solid black;
 }
@@ -142,8 +79,4 @@
 
 .jogo button:hover {
   cursor: pointer;
-<<<<<<< HEAD
-=======
->>>>>>> develop
->>>>>>> feature/layout-home
 }
