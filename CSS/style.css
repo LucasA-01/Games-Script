@@ -16,6 +16,7 @@
   --cor-topo: rgb(0, 0, 0);
   --cor-hero: rgb(10, 10, 10);
   --cor-rodape: rgb(19, 19, 19);
+  --cor-tela: #729caf;
   --cor-fonte: #181616;
   --cor-fonte-topo: #dbdbdb;
   --cor-fonte-rodape: #dbdbdb;
@@ -86,13 +87,6 @@ body {
   font-size: 3rem;
 }
 
-.hero h3 {
-  display: flex;
-  justify-content: center;
-  color: var(--cor-fonte-topo);
-  font-size: 1.5rem;
-}
-
 .texto {
   color: var(--cor-fonte);
   font-family: var(--fonte-textos);
@@ -101,8 +95,6 @@ body {
 /* RODAPÉ */
 
 #rodape {
-  margin-left: 10rem;
-  margin-right: 10rem;
   padding: 1rem;
   background-color: var(--cor-rodape);
   color: var(--cor-fonte-rodape);

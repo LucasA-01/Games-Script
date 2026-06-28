@@ -1,0 +1,44 @@
+/* HERO */
+
+.hero {
+    display: flex;
+    margin-top: 5vw;
+    margin-left: 1vw;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tela {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-color: var(--cor-tela);
+    width: 75vw;
+    height: 50rem;
+    margin-right: 13vw;
+    border-radius: 5px;
+}
+
+.texto h2 img {
+    width: 4rem;
+}
+
+
+/* CONTROLES */
+.controles {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    padding: 1vw;
+    align-self: center;
+    /* width: 8vw; */
+}
+
+.texto p img {
+    width: 2rem;
+}
+
+.texto h3, p{
+    color: white;
+}

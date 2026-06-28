@@ -17,6 +17,13 @@
   margin-right: 10rem;
 }
 
+.hero h3 {
+  display: flex;
+  justify-content: center;
+  color: var(--cor-fonte-topo);
+  font-size: 1.5rem;
+}
+
 /* CARDS */
 
 #jogos {
