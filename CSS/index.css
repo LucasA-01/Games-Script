@@ -1,6 +1,6 @@
 /* HERO - DESTAQUE */
 
-#hero {
+.hero {
   display: flex;
   font-family: var(--fonte-titulos);
   color: var(--cor-fonte);
@@ -17,25 +17,7 @@
   margin-right: 10rem;
 }
 
-#hero h1 {
-  display: flex;
-  justify-content: center;
-  color: var(--cor-fonte-topo);
-  font-size: 3rem;
-}
-
-#hero h3 {
-  display: flex;
-  justify-content: center;
-  color: var(--cor-fonte-topo);
-  font-size: 1.5rem;
-}
-
 /* CARDS */
-.texto {
-  color: var(--cor-fonte);
-  font-family: var(--fonte-textos);
-}
 
 #jogos {
   display: flex;

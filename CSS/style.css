@@ -34,7 +34,7 @@ body {
 
 /* TOPO - NAVEGAÇÃO*/
 
-#topo {
+.topo {
   background-color: var(--cor-topo);
   font-family: var(--fonte-titulos);
   font-size: 2rem;
@@ -45,17 +45,17 @@ body {
   border-bottom: 3px solid var(--cor-fonte-hover);
 }
 
-#topo a {
+.topo a {
   text-decoration: none;
   color: var(--cor-fonte-topo);
 }
 
-#topo li {
+.topo li {
   padding: 5px;
 
 }
 
-#topo li:hover {
+.topo li:hover {
   background-color: var(--cor-fonte-hover);
   border-radius: 5px;
 }
@@ -75,6 +75,27 @@ body {
   display: flex;
   list-style: none;
   gap: 1rem;
+}
+
+/* HERO - DESTAQUE */
+
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  color: var(--cor-fonte-topo);
+  font-size: 3rem;
+}
+
+.hero h3 {
+  display: flex;
+  justify-content: center;
+  color: var(--cor-fonte-topo);
+  font-size: 1.5rem;
+}
+
+.texto {
+  color: var(--cor-fonte);
+  font-family: var(--fonte-textos);
 }
 
 /* RODAPÉ */
