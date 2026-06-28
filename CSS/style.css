@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Changa+One:ital@0;1&display=swap');
+
+/* FORMATAÇÃO GERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIÁVEIS GLOBAIS */
+
+:root {
+  --cor-fundo: #747474;
+  --cor-lateral: #0f0f0f;
+  --cor-topo: rgb(0, 0, 0);
+  --cor-hero: rgb(10, 10, 10);
+  --cor-rodape: rgb(19, 19, 19);
+  --cor-fonte: #181616;
+  --cor-fonte-topo: #dbdbdb;
+  --cor-fonte-rodape: #dbdbdb;
+  --cor-fonte-link: #636363;
+  --cor-fonte-hover: #5c0000;
+  --fonte-titulos: 'Bebas Neue', arial, sans-serif;
+  --fonte-textos: 'Anton', sans-serif;
+  --fonte-links: 'Changa One', sans-serif;
+}
+
+/* CORPO/BODY */
+
+body {
+  background-color: var(--cor-lateral);
+}
+
+/* TOPO - NAVEGAÇÃO*/
+
+#topo {
+  background-color: var(--cor-topo);
+  font-family: var(--fonte-titulos);
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 3px solid var(--cor-fonte-hover);
+}
+
+#topo a {
+  text-decoration: none;
+  color: var(--cor-fonte-topo);
+}
+
+#topo li {
+  padding: 5px;
+
+}
+
+#topo li:hover {
+  background-color: var(--cor-fonte-hover);
+  border-radius: 5px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#logo img{
+  width: 5rem;
+  height: auto;
+}
+
+#navegacao {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+/* RODAPÉ */
+
+#rodape {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 1rem;
+  background-color: var(--cor-rodape);
+  color: var(--cor-fonte-rodape);
+  font-family: var(--fonte-textos);
+}
+
+#rodape div {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 4rem;
+  font-size: 20px;
+}
+
+#rodape a {
+  text-decoration: none;
+  color: var(--cor-fonte-link);
+}

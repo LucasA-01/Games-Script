@@ -1,58 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SCRIPT - GAMES</title>
+  <title>SCRIPT GAMES</title>
+  <link rel="shortcut icon" href="Assets/IMG/Favicon-controle.png" type="image/x-icon">
   <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
   <header id="topo">
-      <!-- TOPO - NAVEGAÇÃO -->
+    <!-- TOPO - NAVEGAÇÃO -->
     <div>
       <a href="index.html" id="logo">
         <img src="Assets/IMG/Logo_site.png" alt="Logo do site">
         <span>GAMES SCRIPT</span>
-      </a>
-    </div>
+      </div>
 
-    <nav>
-      <ul id="navegacao">
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
-        <li><a href="#">Novidades</a></li>
-      </ul>
-    </nav>
+      <nav>
+        <ul id="navegacao">
+          <li><a href="#aba-sobre">Sobre</a></li>
+          <li><a href="#aba-contato">Contato</a></li>
+          <li><a href="#aba-novidades">Novidades</a></li>
+        </ul>
+      </nav>
+    </a>
   </header>
-    
-    <!-- HERO - DESTAQUE -->
+  
+  <!-- HERO - DESTAQUE -->
   <main>
     <section id="hero">
-        <h1>GAMES SCRIPT</h1>
-        <h3>Projetos de criação de jogos, desenvolvido para fins de aprendizado. Todos os jogos foram feitos integralmente de: HTML, CSS e JS</h3>
+      <h1>GAMES SCRIPT</h1>
+      <h3>Projetos de criação de jogos, desenvolvido para fins de aprendizado.</h3>
+      <h3>Todos os jogos foram feitos integralmente de: HTML, CSS e JS</h3>
     </section>
-  
+    
     <!-- CARD - DESTAQUE -->
-     <section id="jogos">
+    <section id="jogos">
       <div class="texto">
         <h1>JOGOS DISPONÍVEIS</h1>
       </div>
-
-      <article id="jogo01">
-        <a href="PAGES/super_sticker_bros.html">
-          <figure>
-            <img src="Assets/IMG/ESPINHO.png" alt="Jogo de pular espinhos">
-          </figure>
-        </a>
-        <a href="PAGES/super_sticker_bros.html">
-          <div class="texto">
-            <h2>Super Sticker Bros.</h2>
-            <p>Pule e desvie dos obstáculos para passar de nível.</p>
-          </div>
-        </a>
-        </article>
-     </section>
+      
+      <article class="jogo">
+        <figure>
+          <img src="Assets/IMG/ESPINHO.png" alt="Jogo de pular espinhos">
+        </figure>
+        <div class="texto">
+          <h2>Sticker Run</h2>
+          <p>Pule e desvie dos obstáculos para passar de nível.</p>
+        </div>
+        <button onclick="window.location.href='PAGES/sticker_run.html'">
+          START
+        </button>
+      </article>
+    </section>
   </main>
   
+  <!-- RODAPÉ -->
+  <footer id="rodape">
+    <div>
+      <p>©2026 Lucas Alves. Este software é livre e protegido pela GNU Affero General Public License v3.</p>
+    </div>
+
+    <details id="aba-sobre">
+      <summary>Sobre</summary>
+      <p>Sou um aluno da Etec Sales Gomes que desejou avançar seus estudos e conhecimentos através de desafios, este foi um site feito a partir dos meus conhecimentos básicos em HTML, CSS e JS.</p>
+    </details>
+    
+    <details id="aba-contato">
+      <summary>Contato</summary>
+      <p>Acesse:<a href="https://github.com/LucasA-01/">&nbsp;&nbsp;Meu github&nbsp;&nbsp;</a>Caso tenha problemas, dúvidas ou qualquer outra coisa, pode me contatar por lá.</p>
+    </details>
+    
+    <details id="aba-novidades">
+      <summary>Novidades</summary>
+      <p>Seguimos trabalhando para desenvolver mais jogos 🚀</p>
+    </details>
+  </footer>
+
 </body>
 </html>
