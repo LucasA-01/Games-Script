@@ -11,7 +11,7 @@
    width: 5rem;
    height: 4rem;
    position: absolute;
-   left: -5;
+   left: -4;
    bottom: 0;
    animation: espinho-animation 3s infinite linear;
 }
@@ -43,15 +43,15 @@
     }
 
     40% {
-        bottom: 20vw;
+        bottom: 13vw;
     }
 
     50% {
-        bottom: 21vw;
+        bottom: 14vw;
     }
 
     60% {
-        bottom: 20vw;
+        bottom: 13vw;
     }
 
     100% {

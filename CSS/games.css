@@ -20,10 +20,26 @@
     border-radius: 5px;
 }
 
+.texto h1 {
+    margin-top: 5vw;
+}
+
+.texto h2 {
+    display: flex;
+    justify-content: center;
+}
+
 .texto h2 img {
     width: 4rem;
 }
 
+.hero h4 {
+  display: flex;
+  justify-content: center;
+    color: var(--cor-fonte-hover);
+    font-family: var(--fonte-titulos);
+    font-size: 25px;
+}
 
 /* CONTROLES */
 .controles {
@@ -40,5 +56,5 @@
 }
 
 .texto h3, p{
-    color: white;
+    color: rgb(163, 163, 163);
 }

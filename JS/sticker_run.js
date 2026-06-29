@@ -1,7 +1,8 @@
 const boneco = document.querySelector(".boneco");
 const spike = document.querySelector(".espinho");
-let titulo = document.querySelectorAll('.texto h1');
-let subtitulo = document.querySelectorAll('.texto h2');
+let titulo = document.querySelector('.texto h1');
+let subtitulo = document.querySelector('.texto h2');
+let mensagem = document.querySelector('.tela h4');
 let spikePosition;
 let bonecoPosition;
 let lose;
@@ -49,11 +50,9 @@ const colisao = () => {
         boneco.style.bottom = `${bonecoPosition}px`;
         boneco.src = '../Assets/IMG/game-over.gif';
         
-        titulo = document.querySelector('.texto h1');
-        subtitulo = document.querySelector('.texto h2');
-        
-        if (titulo) titulo.textContent = 'GAME OVER'
-        if (subtitulo) subtitulo.textContent = 'Você perdeu. Tente novamente: Pressione R para reiniciar'
+        titulo.textContent = 'GAME OVER'
+        subtitulo.textContent = 'Você perdeu.' 
+        mensagem.textContent = 'Pressione R para reiniciar'
         
         clearInterval(lose);
     }
@@ -68,12 +67,10 @@ const restart = (reset) => {
         
         spike.style.animation = '';
         boneco.style.animation = '';
-
-        titulo = document.querySelector('.texto h1');
-        subtitulo = document.querySelector('.texto h2');
         
-        if (titulo) titulo.textContent = ''
-        if (subtitulo) subtitulo.textContent = ''
+        titulo.textContent = ''
+        subtitulo.textContent = ''
+        mensagem.textContent = ''
 
         boneco.src = '../Assets/IMG/boneco.gif'
 

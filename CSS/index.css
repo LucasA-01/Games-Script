@@ -39,17 +39,17 @@
 }
 
 .jogo img {
-  display: flex;
-  align-items: center;
   width: 10rem;
+  border: 1px solid black;
   border-radius: 5px;
-  margin: 4px;
+  margin: 1vw;
 }
 
 .jogo {
   display: flex;
+  align-items: center;
   gap: 3rem;
-  border: 1px solid var(--cor-lateral);
+  border: 1px solid black;
   border-radius: 5px;
 }
 
@@ -64,6 +64,7 @@
   color: var(--cor-fonte-topo);
   border-radius: 8px;
   height: 3rem;
+  border: 1px solid black;
 }
 
 .jogo button:hover {

@@ -113,3 +113,11 @@ body {
   text-decoration: none;
   color: var(--cor-fonte-link);
 }
+
+#rodape summary {
+  width: 5vw;
+}
+
+#rodape summary:hover {
+  cursor: pointer;
+}
