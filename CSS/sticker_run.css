@@ -1,0 +1,60 @@
+.tela {
+    position: relative;
+    overflow: hidden;
+    border-width: 0 0 20px 0;
+    border-style: solid;
+    border-color: transparent;
+    border-image: url(../Assets/IMG/grama.jpg) 150 round;
+}
+
+.espinho {
+   width: 5rem;
+   height: 4rem;
+   position: absolute;
+   left: -5;
+   bottom: 0;
+   animation: espinho-animation 3s infinite linear;
+}
+
+.boneco {
+    width: 8rem;
+    height: 9rem;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+}
+
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+@keyframes espinho-animation {
+    from {
+        right: -5rem;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 7rem;
+    }
+
+    50% {
+        bottom: 7rem;
+    }
+
+    60% {
+        bottom: 7rem;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
