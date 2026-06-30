@@ -1,0 +1,22 @@
+
+.tela{
+    background-image: url(../Assets/IMG/background_endless_flyer.gif);
+    background-repeat: no-repeat;
+    background-size: 83vw;
+}
+
+.asteroide {
+    width: 7vw;
+    height: 7vw;
+    position: absolute;
+    bottom: 0;
+    left: -7vw;
+}
+
+.nave {
+    width: 10vw;
+    height: 7vw;
+    position: absolute;
+    bottom: 50%;
+    left: 10vw;
+}

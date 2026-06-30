@@ -1,12 +1,3 @@
-.tela {
-    position: relative;
-    overflow: hidden;
-    border-width: 0 0 20px 0;
-    border-style: solid;
-    border-color: transparent;
-    border-image: url(../Assets/IMG/grama.jpg) 150 round;
-}
-
 .espinho {
    width: 5rem;
    height: 4rem;

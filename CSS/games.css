@@ -18,7 +18,10 @@
     height: 50rem;
     margin-right: 13vw;
     border-radius: 5px;
+    position: relative;
+    overflow: hidden;
 }
+
 
 .texto h1 {
     margin-top: 5vw;
