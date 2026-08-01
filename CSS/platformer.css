@@ -4,7 +4,7 @@
    position: absolute;
    left: -4;
    bottom: 0;
-   animation: espinho-animation 3s infinite linear;
+   animation: espinho-animation 2.25s infinite linear;
 }
 
 .boneco {
@@ -15,8 +15,15 @@
     left: 150px;
 }
 
+#fogo{
+    position: absolute;
+    width: 5rem;
+    height: 3rem;
+    animation: fogo 1.5s linear forwards;
+}
+
 .jump {
-    animation: jump 500ms ease-out;
+    animation: jump 550ms ease-out;
 }
 
 @keyframes espinho-animation {
@@ -32,20 +39,23 @@
     0% {
         bottom: 0;
     }
-
-    40% {
-        bottom: 13vw;
-    }
-
+    
     50% {
-        bottom: 14vw;
+        bottom: 9rem;
     }
-
-    60% {
-        bottom: 13vw;
-    }
-
+    
     100% {
         bottom: 0;
+    }
+}
+
+
+@keyframes fogo{
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(1000px);
     }
 }

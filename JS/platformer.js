@@ -1,5 +1,7 @@
 const boneco = document.querySelector(".boneco");
 const spike = document.querySelector(".espinho");
+const tela = document.querySelector(".tela");
+let poderAtivo = false
 let titulo = document.querySelector('.texto h1');
 let subtitulo = document.querySelector('.texto h2');
 let mensagem = document.querySelector('.tela h4');
@@ -37,6 +39,27 @@ const jump = (event) => {
 
 document.addEventListener("keydown", jump);
 
+document.addEventListener("keydown", (event) => {
+
+    if(event.key === "p" || event.key === 'P'){
+        poderAtivo = true;
+        
+        const fogo = document.createElement("img");
+        fogo.src = "../Assets/IMG/bola_fogo.gif";
+        fogo.id = "fogo";
+        bonecoPosition = +getComputedStyle(boneco).bottom.replace('px', '');
+        fogo.style.left = (boneco.offsetLeft + 80) + "px";
+        fogo.style.bottom = (bonecoPosition) + 'px';
+        tela.appendChild(fogo);
+
+        setTimeout(() => {
+            poderAtivo = false;
+            fogo.remove();
+        },1200);
+
+    }
+
+});
 
 const colisao = () => {
     spikePosition = spike.offsetLeft;
