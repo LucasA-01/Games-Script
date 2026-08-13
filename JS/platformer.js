@@ -12,6 +12,19 @@ let lose;
 spike.style.animation = 'none';
 boneco.style.animation = 'none';
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 function iniciar(start) {
     if (start.key === ' ' || start.key === 'Spacebar') {
         spike.style.animation = '';
